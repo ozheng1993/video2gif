@@ -2,8 +2,8 @@
 #2020/1.2
 import cv2
 import imageio
-videoName = 'demo.mov'
-outName= videoName[:-3] + 'gif'
+videoName = '../video/demo.mov'
+outName="../video/"+ videoName[:-3] + 'gif'
 scale=0.25
 skipRate=30
 gifFps=10
