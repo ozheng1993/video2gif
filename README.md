@@ -36,9 +36,9 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
 ## Interface
 ![Instance Segmentation Sample](assets/interface.png)
 The options includes:
-* Video Sample Rate:Set sample rate for the source video (defult sample every 10 frame)
-* Output GIF FPS: Set output GIF fps(defult 10 fps)
-* Video Resize Rate: Shrink video n times samller (defult 2 times smaller)
+* Video Sample Rate:Set sample rate for the source video (default sample every 10 frame)
+* Output GIF FPS: Set output GIF fps(default 10 fps)
+* Video Resize Rate: Shrink video n times smaller (default 2 times smaller)
 
 ## Citation
 Use this bibtex to cite this repository:
