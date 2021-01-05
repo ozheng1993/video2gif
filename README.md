@@ -1,12 +1,15 @@
 # video2gif
+
 Programmatically generate animated GIF from video in Python
 
 With this video2gif converter you can upload any format of video and rich media files to turn them into high quality animated GIFs. 
 
 ## Requirements
+
 Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requirements.txt`.
 
 ## Installation
+
 1. Clone this repository
 2. Install dependencies
    ```bash
@@ -18,22 +21,17 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
     ``` 
 
 ## Getting Started
+
 1. Start interface
    ```bash
    python3 vgif/main.py
-  ```
+     ```
 2. Select video file
-
 3. Set options
-
 4. Click button "Start" to start
-
-5. Once started converter will save the output under the same folder ad source video.
-
-5. Click button "ReStart" to re-start this process.
-
-6. Click button "Exit" to end this program.
-
+5. Once started converter will save the output under the same folder ad source video
+6. Click button "ReStart" to re-start this process
+7. Click button "Exit" to end this program.
 
 ## Interface
 ![Instance Segmentation Sample](assets/interface.png)
