@@ -43,7 +43,7 @@ The options includes:
 ## Citation
 Use this bibtex to cite this repository:
 ```
-@misc{mouzheng1993,
+@misc{ouzheng1993,
   title={video2gif},
   author={ou zheng},
   year={2020},
