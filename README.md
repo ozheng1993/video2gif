@@ -13,9 +13,6 @@ With this video2gif converter you can upload any format of video and rich media 
     ```bash
     python3 setup.py install
     ``` 
-
-
-
 ## Interface
 ![Instance Segmentation Sample](assets/interface.png)
 The options includes:

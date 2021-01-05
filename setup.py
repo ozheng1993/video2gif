@@ -31,18 +31,18 @@ except Exception:
     install_reqs = []
 
 setup(
-    name='videoStabilizer',
+    name='video2gif',
     version='1.0',
-    url='https://github.com/ozheng1993/videoStabilizer',
+    url='https://github.com/ozheng1993/video2gif',
     author='ozheng1993',
     author_email='ouzheng1993@gmail.com',
     license='MIT',
-    description='https://github.com/ozheng1993/videoStabilizer',
-    packages=["stabilizer"],
+    description='https://github.com/ozheng1993/video2gif',
+    packages=["vgif"],
     install_requires=install_reqs,
     include_package_data=True,
     python_requires='>=3.7',
-    long_description="""This is videoStabilizer""",
+    long_description="""This is video to gif""",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
@@ -53,11 +53,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
-        "Topic :: Scientific/Engineering :: video stabilizer",
+        "Topic :: Scientific/Engineering :: This is video to gif",
         "Topic :: Scientific/Engineering :: Visualization",
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    keywords="image video stabilizer",
+    keywords="image video gif",
 )
