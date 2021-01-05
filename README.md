@@ -19,14 +19,23 @@ With this video2gif converter you can upload any format of video and rich media 
    ```bash
    python3 vgif/main.py
    ```
-
-
-
-
 ## Interface
 ![Instance Segmentation Sample](assets/interface.png)
 The options includes:
 * Video Rample Rate:
 * Output Gif FPS:
 * Video Resize Rate:
+
+## Citation
+Use this bibtex to cite this repository:
+```
+@misc{mouzheng1993,
+  title={video2gif},
+  author={ou zheng},
+  year={2020},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/ozheng1993/video2gif}},
+}
+```
 
