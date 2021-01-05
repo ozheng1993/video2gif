@@ -23,10 +23,15 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
    python3 vgif/main.py
   ```
 2. Select video file
+
 3. Set options
+
 4. Click button "Start" to start
+
 5. Once started converter will save the output under the same folder ad source video.
+
 5. Click button "ReStart" to re-start this process.
+
 6. Click button "Exit" to end this program.
 
 
