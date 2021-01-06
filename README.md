@@ -52,6 +52,9 @@ Use this bibtex to cite this repository:
   howpublished={\url{https://github.com/ozheng1993/video2gif}},
 }
 ```
+## To do
+
+* gif Size
 
 ## Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
