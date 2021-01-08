@@ -54,7 +54,8 @@ Use this bibtex to cite this repository:
 ```
 ## To do
 
-* gif Size
+* GIF Size
+* file output
 
 ## Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
