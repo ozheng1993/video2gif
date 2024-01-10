@@ -33,6 +33,14 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
 6. Click button "ReStart" to re-start this process
 7. Click button "Exit" to end this program.
 
+#### Interface
+![Instance Segmentation Sample](assets/interface.png)
+The options includes:
+* Video Sample Rate:Set sample rate for the source video (default sample every 10 frame)
+* Output GIF FPS: Set output GIF fps(default 10 fps)
+* Video Resize Rate: Shrink video n times smaller (default 2 times smaller)
+
+
 ### CommandLine
 * Usage:
 ```shell
@@ -56,12 +64,6 @@ This will generate the GIF with the same name to the same directory as the origi
 python vgif/video2gif.py -i /myLocalDir/myVideo.mov -o /some_dir/out.gif
 ```
 
-## Interface
-![Instance Segmentation Sample](assets/interface.png)
-The options includes:
-* Video Sample Rate:Set sample rate for the source video (default sample every 10 frame)
-* Output GIF FPS: Set output GIF fps(default 10 fps)
-* Video Resize Rate: Shrink video n times smaller (default 2 times smaller)
 
 ## Citation
 Use this bibtex to cite this repository:
