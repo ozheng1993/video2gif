@@ -21,7 +21,7 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
     ``` 
 
 ## Getting Started
-
+### GUI
 1. Start interface
    ```bash
    python3 vgif/main.py
@@ -32,6 +32,29 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
 5. Once started converter will save the output under the same folder ad source video
 6. Click button "ReStart" to re-start this process
 7. Click button "Exit" to end this program.
+
+### CommandLine
+* Usage:
+```shell
+Usage: video2gif.py [OPTIONS]
+
+  Converts video to GIF.
+
+Options:
+  -i, --input PATH   input video file
+  -o, --output PATH  output gif file path and name.
+  --help             Show this message and exit.
+```
+*  Just Give the Input:
+```python
+python vgif/video2gif.py -i /myLocalDir/myVideo.mov
+```
+This will generate the GIF with the same name to the same directory as the original file.
+
+* Give the file path for out.:
+```python
+python vgif/video2gif.py -i /myLocalDir/myVideo.mov -o /some_dir/out.gif
+```
 
 ## Interface
 ![Instance Segmentation Sample](assets/interface.png)
@@ -54,8 +77,9 @@ Use this bibtex to cite this repository:
 ```
 ## To do
 
-* GIF Size
-* file output
+- [ ] GIF Size
+- [ ] file output
+- [ ] Improve compression ratio and reduce generation size. 
 
 ## Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
