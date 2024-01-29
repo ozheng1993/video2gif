@@ -21,7 +21,7 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
     ``` 
 
 ## Getting Started
-
+### GUI
 1. Start interface
    ```bash
    python3 vgif/main.py
@@ -33,12 +33,37 @@ Python 3.6+, pysimplegui,opencv-python and other common packages listed in `requ
 6. Click button "ReStart" to re-start this process
 7. Click button "Exit" to end this program.
 
-## Interface
+#### Interface
 ![Instance Segmentation Sample](assets/interface.png)
 The options includes:
 * Video Sample Rate:Set sample rate for the source video (default sample every 10 frame)
 * Output GIF FPS: Set output GIF fps(default 10 fps)
 * Video Resize Rate: Shrink video n times smaller (default 2 times smaller)
+
+
+### CommandLine
+* Usage:
+```shell
+Usage: video2gif.py [OPTIONS]
+
+  Converts video to GIF.
+
+Options:
+  -i, --input PATH   input video file
+  -o, --output PATH  output gif file path and name.
+  --help             Show this message and exit.
+```
+*  Just Give the Input:
+```python
+python vgif/video2gif.py -i /myLocalDir/myVideo.mov
+```
+This will generate the GIF with the same name to the same directory as the original file.
+
+* Give the file path for out.:
+```python
+python vgif/video2gif.py -i /myLocalDir/myVideo.mov -o /some_dir/out.gif
+```
+
 
 ## Citation
 Use this bibtex to cite this repository:
@@ -54,8 +79,9 @@ Use this bibtex to cite this repository:
 ```
 ## To do
 
-* GIF Size
-* file output
+- [ ] GIF Size
+- [ ] file output
+- [ ] Improve compression ratio and reduce generation size. 
 
 ## Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
