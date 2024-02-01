@@ -49,9 +49,14 @@ Usage: video2gif.py [OPTIONS]
   Converts video to GIF.
 
 Options:
-  -i, --input PATH   input video file
-  -o, --output PATH  output gif file path and name.
-  --help             Show this message and exit.
+  -i, --input PATH         input video file
+  -o, --output TEXT        output gif file path and name.
+  -s, --scale INTEGER      Scale the factor for frame_x and frame_y.
+  -r, --resolution TEXT    The resolution factor for factor ( For Compress ),
+                           like 1920x1080.
+
+  -fps, --gif-fps INTEGER  The fps of the GIF.
+  --help                   Show this message and exit.
 ```
 *  Just Give the Input:
 ```python
