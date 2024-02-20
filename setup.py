@@ -35,7 +35,7 @@ long_description = open('README.rst').read()
 
 setup(
     name='vgif',
-    version='1.0.2',
+    version='1.0.6',
     url='https://github.com/ozheng1993/video2gif',
     author='ozheng1993',
     author_email='ouzheng1993@gmail.com',
