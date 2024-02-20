@@ -5,3 +5,7 @@ output
 video
 .DS_Store
 .idea
+dist
+build
+/vgif.egg-info/
+/video2gif.egg-info/
