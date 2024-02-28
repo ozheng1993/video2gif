@@ -92,7 +92,8 @@ Use this bibtex to cite this repository:
 
 - [ ] GIF Size
 - [ ] file output
-- [ ] Improve compression ratio and reduce generation size. 
+- [ ] Improve compression ratio and reduce generation size.
+- [ ] Select several frame GUI function.
 
 ## Contributing
 Contributions to this repository are welcome. Examples of things you can contribute:
